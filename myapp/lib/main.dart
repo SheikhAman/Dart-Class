@@ -6,8 +6,8 @@ void main() {
 
 // Define states (properties  example : id and name) and (behavior example:studey and sleep method) of a Student
 class Student {
-  late int
-      id; // we have defined some properties // we have declared variable , this properties are known as the instance variable or the field variable
+  late int id =
+      -1; // we have defined some properties // we have declared variable , this properties are known as the instance variable or the field variable
   late String
       name; // we have defined some properties  //  Instance or Field Variable // By default this property have default value of null
 

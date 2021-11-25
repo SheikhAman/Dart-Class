@@ -8,6 +8,14 @@ void main() {
   print('${student1.id} and ${student1.name}');
   student1.study();
   student1.sleep();
+// same class raikha ami akadhik object toiri korte  parbo
+  var student2 = Student(); //  student2 object created
+  student2.id =
+      10; // this value will override the value off instance or field variable
+  student2.name = 'Sheikh';
+  print('${student2.id} and ${student2.name}'); //printed
+  student2.study();
+  student2.sleep();
 }
 
 // Define states (properties  example : id and name) and (behavior example:studey and sleep method) of a Student
@@ -19,13 +27,15 @@ class Student {
 
   void study() {
     // And alos defined some behavior
-    print('${this.name} is now studying');
+    print(
+        '${this.name} is now studying'); // this.name refers to class instace variable or field variable
     // Your code
   }
 
   void sleep() {
     // And alos defined some behavior
-    print('${this.name} is now studying');
+    print(
+        '${this.name} is now studying'); // this.name refers to class instace variable or field variable
     // Your codes
   }
 }

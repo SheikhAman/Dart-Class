@@ -1,6 +1,6 @@
 void main() {
   var student1 =
-      Student(); // kono variable r vitore class k contain kora e holo object create kora, amra student1 object create korechi
+      Student(); // kono variable r vitore class k contain kora e holo object create kora, aikhane Student() is one object ar student1 is reference variable
   student1.id =
       11; // this value will override the value off instance or field variable's value
   student1.name =
@@ -9,7 +9,8 @@ void main() {
   student1.study();
   student1.sleep();
 // same class raikha ami akadhik object toiri korte  parbo
-  var student2 = Student(); //  student2 object created
+  var student2 =
+      Student(); //  student2 reference variablee and Studet() is one object
   student2.id =
       10; // this value will override the value off instance or field variable
   student2.name = 'Sheikh';

@@ -1,6 +1,10 @@
 void main() {
   var student1 =
       Student(); // kono variable r vitore class k contain kora e holo object create kora, amra student1 object create korechi
+  student1.id =
+      11; // this value will override the value off instance or field variable's value
+  student1.name =
+      'Mohammad'; // this value will override the value off instance or field variable's value
   print('${student1.id} and ${student1.name}');
 }
 

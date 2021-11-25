@@ -6,6 +6,8 @@ void main() {
   student1.name =
       'Mohammad'; // this value will override the value off instance or field variable's value
   print('${student1.id} and ${student1.name}');
+  student1.study();
+  student1.sleep();
 }
 
 // Define states (properties  example : id and name) and (behavior example:studey and sleep method) of a Student
@@ -17,13 +19,13 @@ class Student {
 
   void study() {
     // And alos defined some behavior
-
+    print('${this.name} is now studying');
     // Your code
   }
 
   void sleep() {
     // And alos defined some behavior
-
+    print('${this.name} is now studying');
     // Your codes
   }
 }

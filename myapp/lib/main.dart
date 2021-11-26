@@ -36,7 +36,7 @@ class Student {
   void sleep() {
     // And alos defined some behavior
     print(
-        '${this.name} is now studying'); // this.name refers to class instace variable or field variable
+        '${this.name} is now sleeping'); // this.name refers to class instace variable or field variable
     // Your codes
   }
 }
